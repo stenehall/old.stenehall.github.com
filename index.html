@@ -1,47 +1,60 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<!DOCTYPE HTML>
+<html lang="en">
 	<head> 
-		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+		<meta charset="utf-8" />
 		<title>stenehall @ GitHub</title>
-		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
-
-		<style  type="text/css"> 
-			body {  margin-top: 1.0em; background: #ffffff;  font: 14px/1.5 Helvetica, Arial, FreeSans, Sans-serif; color:  #000000; }
-			#container { margin: 0 auto; width: 700px; } h1 { font-size: 3.8em; color: #000000; margin-bottom: 3px; } 
-			h1,h2,h3, .description { font-family: "Times New Roman"; }
-			h1 .small { font-size: 0.4em; }
-			a {  text-decoration: none }  
-			h2 { font-size: 1.5em;  color: #000000; margin: 2em 0 1em; }  
-			h3 { text-align:  left; color: #000000; margin: 0; padding: 0; }  
-			a { color:  #000000; }
-			a img { border: none; }
-			.description { font-size: 1.2em; margin-bottom:  30px; margin-top: 30px; font-style: italic; } 
-			.download { float:  right; }
-			.sub { background: #ccc; padding: 2em; }
-			.example {background: #ccc; padding: 2em; margin-bottom: 1em; }
-			pre { background: #000; color: #fff; padding: 15px; margin:0 0 1em; }
-			dl { padding: 15px; background: #4087ff; }
-			dt { font-weight: bold; }
-			.footer { text-align:center; padding-top:30px; font-style: italic; }
-
-			section{ -moz-box-shadow: none; -webkit-box-shadow: none; box-shadow: none; margin: 0; background: #ccc; }
+		
+		<link rel="stylesheet" href="media/css/style.css">
+		<link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Tinos:regular,italic,bold&subset=latin'>
+		<style> 
 			#magiclogin-container { background: #fff; border-color: #000; }
 		</style>
+		<!--[if IE]>
+		  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
 	</head>
 
 	<body>
-		<div id="container">
-
+		<header>
 			<h1><a href="http://github.com/stenehall/">Stenehall</a> <span class="small">by <a href="http://github.com/stenehall">stenehall</a></span></h1>
-
-			<div class="description">My place at github</div>
-
+			<section class="description">My place at github</section>
+		</header>
+		
+		<article>
 			<h2>JQuery plugins</h2>
 			<ul>
 				<li><a href="http://stenehall.github.com/jQuery.magiclogin/">Magic login</a></li>
 				<li><a href="http://stenehall.github.com/jQuery.showpasswords/">Show Passwords</a></li>
 			</ul>
-		</div>
+			<p>Add a checkbox that toggles passwords *** to clear text. Just use your regular html forms and trigger showpasswords and you're done.</p>
+
+			<h2>Code example:</h2>
+			<pre>jQuery(document).ready(function() { jQuery.showpasswords(); });</pre>
+			
+			<h2>Arguments</h2>
+			<p>showpasswords take three arguments, but you don't need to use any if you don't want. The defaults are reasonable in my opinion.</p>
+			<dl>
+				<dt>clearOnFocus</dt>
+				<dd>By default set to true wich means that if the default value will be cleared when the input is focused. Just set it to false if you don't want this.</dd>
+            
+				<dt>label</dt>
+				<dd>This it what the label for the checkbox should say. This you might want to change.</dd>
+				<dt>prefix</dt>
+				<dd>If you for some reason cant use the default prefix, 'clear-', you can just change this.</dd>
+            
+			</dl>
+			
+			<pre>jQuery.showpasswords( { label: 'Something else', clearOnFocus: true, prefix: 'new-prefix-'} );</pre>
+
+			<h2>Example:</h2>
+			<section class="example">
+				<p><input type="password" name="some_name" value="Password" id="some_name" /></p>
+			</section>
+		</article>
+
+		<footer>
+			<p>get the source code on GitHub : <a href="http://github.com/stenehall/jQuery.showpasswords">stenehall/jQuery</a></p>
+		</footer>
 	</body>
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
 </html>

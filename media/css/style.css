@@ -1,0 +1,126 @@
+/* !HTML5 reset
+---------------------------------------*/
+article, aside, figure, footer, header, hgroup,
+menu, nav, section { display: block; }
+
+/* !Typografy
+---------------------------------------*/
+body {
+	font: 14px/1.5 Helvetica, Arial, FreeSans, Sans-serif;
+	}
+
+body, a {
+	color: #000;
+	}
+
+h1, h2, h3, .description {
+	font-family: 'Tinos', arial, serif;
+	}
+
+p {
+	width: 480px;
+	}
+
+h1 {
+	font-size: 3.8em;
+	margin-bottom: 3px;
+	}
+
+h1 .small {
+	font-size: 0.4em;
+	}
+
+h2 {
+	font-size: 1.5em;
+	margin: 3em 0 1em;
+	}
+
+h3 {
+	text-align: left;
+	margin: 0;
+	padding: 0;
+	}
+
+a {
+	text-decoration: none
+	}
+
+a img {
+	border: none;
+	}
+
+.description {
+	font-size: 1.2em;
+	margin-bottom: 30px;
+	margin-top: 30px;
+	font-style: italic;
+	}
+
+pre {
+	color: #fff;
+	}
+
+dt {
+	font-weight: bold;
+	}
+
+.footer {
+	text-align: center;
+	font-style: italic;
+	}
+
+/* !Content
+---------------------------------------*/
+body {
+	margin-top: 1.0em;
+	background: #ffffff;
+	}
+
+h1, h2, h3, h4, dl, ul, ol, p, .description{
+	width: 480px;
+	}
+
+header, article, footer {
+	margin: 0 auto;
+	width: 700px;
+	}
+
+footer {
+	margin-top: 3em;
+	border-top: 1px dotted #000;
+	}
+
+.download {
+	float: right;
+	}
+
+.sub {
+	background: #ccc;
+	padding: 2em;
+	}
+	
+.example {
+	background: #ccc;
+	padding: 2em;
+	margin-bottom: 1em;
+	}
+	
+pre {
+	background: #000;
+	padding: 15px;
+	margin: 0 0 1em;
+	}
+	
+dl {
+	padding: 15px 15px 5px;
+	background: #4087ff;
+	width: 450px;
+	}
+
+	dd {
+		margin: 0 40px 10px;
+		}
+
+.footer {
+	padding-top: 30px;
+	}
