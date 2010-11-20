@@ -13,7 +13,13 @@ body, a {
 	color: #000;
 	}
 
-h1, h2, h3, .description {
+header h2 {
+	font-size: 1.2em;
+	font-style: italic;
+	font-weight: normal;
+	}
+
+h1, h2, h3 {
 	font-family: 'Tinos', arial, serif;
 	}
 
@@ -49,13 +55,6 @@ a img {
 	border: none;
 	}
 
-.description {
-	font-size: 1.2em;
-	margin-bottom: 30px;
-	margin-top: 30px;
-	font-style: italic;
-	}
-
 pre {
 	color: #fff;
 	}
@@ -78,6 +77,10 @@ body {
 
 h1, h2, h3, h4, dl, ul, ol, p, .description{
 	width: 480px;
+	}
+
+ul {
+	margin: 2em 0;
 	}
 
 header, article, footer {
