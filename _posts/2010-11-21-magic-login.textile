@@ -1,15 +1,34 @@
 ---
 layout: project
-github: jQuery.magiclogin
+github: jquery.magiclogin
+permalink: jquery.magiclogin/
 categories: 
  - jquery
  - plugin
 title: Magiclogin
 tagline: Creates the illusion of one input being used for both username and password
 description: JQuery plugin that fakes a one input field login
+head: '
+<link rel="stylesheet" href="https://github.com/stenehall/jQuery.magiclogin/raw/master/media/css/style.css">
+<style>section.magic-login { margin: 0 auto; }</style>
+<script src="https://github.com/stenehall/jQuery.magiclogin/raw/master/media/js/jquery.magicinput.js"></script>
+<script>
+	jQuery(document).ready(function() 
+	{
+		jQuery("#magiclogin-container").magicLogin({
+			passwordSize: 15,
+			usernameSize: 15
+		});
+
+	});
+</script>
+'
 ---
 
 p(meta). 21 November 2010
+
+Inspired by <a href="http://www.awayback.com/single-input-login-form-2/">Single input login form | A Way Back</a> i thought I'd play a bit. The result is a jQuery plugin that will transform a regular two input fields login into "one" field.
+It will still allow the user to <code>TAB</code> between username and password but also accepts <code>SPACE</code>. Since I've left the actuall password field it should also work with browsers that save your login information. If the user have javascript disabled (s)he will get a regular login form.
 
 h2(code_example). <a href="#code_example">Code example</a>
 
@@ -19,22 +38,10 @@ h2(code_example). <a href="#code_example">Code example</a>
 
 h2(example). <a href="#example">Example</a>
 
-<section>
+<section class="magic-login">
 	<div id="magiclogin-container">
 		<input id="username" type="text" value="Username">
 		<input id="password" type="password" value="Password">
 		<input class="submit" type="submit" value="Sign In">
 	</div>
 </section>
-<link rel="stylesheet" href="https://github.com/stenehall/jQuery.magiclogin/raw/master/media/css/style.css">
-<script src="https://github.com/stenehall/jQuery.magiclogin/raw/master/media/js/jquery.magicinput.js"></script>
-<script>
-	jQuery(document).ready(function() 
-	{
-		jQuery('#magiclogin-container').magicLogin({
-			passwordSize: 15,
-			usernameSize: 15
-		});
-
-	});
-</script>
