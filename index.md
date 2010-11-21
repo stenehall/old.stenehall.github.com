@@ -1,7 +1,8 @@
 ---
 title: Home
+tagline: My place at github
 layout: default
 ---
 
 
-Hejsan svejsan
+Placeholder site for my github.

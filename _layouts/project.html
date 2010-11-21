@@ -1,0 +1,31 @@
+---
+layout: base
+---
+
+<header>
+	<div class="download">
+		<a href="https://github.com/stenehall/{{ page.github }}/zipball/master"> 
+			<img alt="Downlaod zip" width="90" src="https://github.com/images/modules/download/zip.png" /></a> 
+		<a href="https://github.com/stenehall/{{ page.github }}/tarball/master"> 
+			<img alt="Download tar" width="90" src="https://github.com/images/modules/download/tar.png" /></a> 
+	</div>
+	<h1><a href="http://github.com/stenehall/">{{ page.title }}</a> <span class="small">by <a href="http://github.com/stenehall">stenehall</a></span></h1>
+	<h2>{{ page.tagline }}</h2>
+</header>
+
+<article>
+	{{ content }}
+
+	<h2 id="download"><a href="#download">Download</a></h2> 
+	<p>You can download this project in either <a href="http://github.com/stenehall/{{ page.gihub }}/zipball/master">zip</a> or <a href="http://github.com/stenehall/{{ page.gihub }}/tarball/master">tar</a> formats.</p>
+	<p>You can also clone the project with <a href="http://git-scm.com">Git</a> by running:</p>
+	<pre>$ git clone git://github.com/stenehall/{{ page.github }}</pre>
+
+	<h2>Discussion</h2>
+	<div id="disqus_thread"></div>
+	<script type="text/javascript" src="http://disqus.com/forums/broken8/embed.js"></script>
+	<noscript><a href="http://broken8.disqus.com/?url=ref">View the discussion thread.</a></noscript>
+</article>
+<footer>
+	<p>Get the source code on GitHub : <a href="http://github.com/stenehall/{{ page.github }}">stenehall/{{ page.github }}</a></p>
+</footer>

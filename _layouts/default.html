@@ -1,46 +1,22 @@
-<!DOCTYPE HTML>
-<html lang="en">
-	<head> 
-		<meta charset="utf-8" />
-		<title>stenehall/{{ page.title }} @ GitHub</title>
-		
-		<link rel="stylesheet" href="media/css/style.css">
-		<link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Tinos:regular,italic,bold&subset=latin'>
-		<!--[if IE]>
-		  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-		<![endif]-->
-	</head>
+---
+layout: base
+---
 
-	<body>
-		<header>
-			<h1><a href="http://github.com/stenehall/">Stenehall</a> <span class="small">by <a href="http://github.com/stenehall">stenehall</a></span></h1>
-			<h2>My place at github</h2>
-		</header>
-		
-		<article>
-			{{ content }}
-			<h2>JQuery plugins</h2>
-			<ul>
-				<li><a href="http://stenehall.github.com/jQuery.magiclogin/">Magic login</a></li>
-				<li><a href="http://stenehall.github.com/jQuery.showpasswords/">Show Passwords</a></li>
-			</ul>
-		</article>
+<header>
+	<h1><a href="http://github.com/stenehall/">Stenehall</a> <span class="small">by <a href="http://github.com/stenehall">stenehall</a></span></h1>
+	<h2>{{page.tagline}}</h2>
+</header>
 
-		<footer>
-			<p>Get the source code on GitHub : <a href="http://github.com/stenehall/">stenehall/</a></p>
-		</footer>
-	</body>
-	<script type="text/javascript">
+<article>
+	{{ content }}
+	<h2>Github Projects</h2>
+	<ul>
+		<li><a href="http://stenehall.github.com/jQuery.magiclogin/">Magic login</a></li>
+		<li><a href="http://stenehall.github.com/jQuery.showpasswords/">Show Passwords</a></li>
+	</ul>
+</article>
 
-	  var _gaq = _gaq || [];
-	  _gaq.push(['_setAccount', 'UA-19825959-1']);
-	  _gaq.push(['_trackPageview']);
+<footer>
+	<p>Get the source code on GitHub : <a href="http://github.com/stenehall/">stenehall/</a></p>
+</footer>
 
-	  (function() {
-	    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-	    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-	    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-	  })();
-
-	</script>
-</html>
