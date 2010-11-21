@@ -1,0 +1,40 @@
+---
+layout: project
+github: jQuery.magiclogin
+categories: 
+ - jquery
+ - plugin
+title: Magiclogin
+tagline: Creates the illusion of one input being used for both username and password
+description: JQuery plugin that fakes a one input field login
+---
+
+p(meta). 21 November 2010
+
+h2(code_example). <a href="#code_example">Code example</a>
+
+<pre>jQuery(document).ready(function() {
+	jQuery('#magiclogin-container').magiclogin();
+});</pre>
+
+h2(example). <a href="#example">Example</a>
+
+<section>
+	<div id="magiclogin-container">
+		<input id="username" type="text" value="Username">
+		<input id="password" type="password" value="Password">
+		<input class="submit" type="submit" value="Sign In">
+	</div>
+</section>
+<link rel="stylesheet" href="https://github.com/stenehall/jQuery.magiclogin/raw/master/media/css/style.css">
+<script src="https://github.com/stenehall/jQuery.magiclogin/raw/master/media/js/jquery.magicinput.js"></script>
+<script>
+	jQuery(document).ready(function() 
+	{
+		jQuery('#magiclogin-container').magicLogin({
+			passwordSize: 15,
+			usernameSize: 15
+		});
+
+	});
+</script>
