@@ -56,6 +56,10 @@ a img {
 	border: none;
 	}
 
+.date {
+	color: #888;
+	}
+
 pre {
 	color: #fff;
 	}
@@ -82,6 +86,12 @@ h1, h2, h3, h4, dl, ul, ol, p, .description{
 
 ul {
 	margin: 2em 0;
+	}
+
+ul.list {
+	list-style: none;
+	margin: 0;
+	padding: 0 10px;
 	}
 
 header, article, footer {

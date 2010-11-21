@@ -2,10 +2,9 @@
 <html lang="en">
 	<head> 
 		<meta charset="utf-8" />
-		<title>stenehall/Home @ GitHub</title>
+		<title>stenehall/Magiclogin @ GitHub</title>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
 
-		<link rel="stylesheet" href="https://github.com/stenehall/stenehall.github.com/raw/master/media/css/style.css">
 		<link rel="stylesheet" href="/media/css/style.css">
 		<link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Tinos:regular,italic,bold&subset=latin'>
 		<!--[if IE]>
@@ -17,22 +16,45 @@
 	<body>
 		<header>
 	<div class="download">
-		<a href="https://github.com/stenehall//zipball/master"> 
+		<a href="https://github.com/stenehall/jQuery.magiclogin/zipball/master"> 
 			<img alt="Downlaod zip" width="90" src="https://github.com/images/modules/download/zip.png" /></a> 
-		<a href="https://github.com/stenehall//tarball/master"> 
+		<a href="https://github.com/stenehall/jQuery.magiclogin/tarball/master"> 
 			<img alt="Download tar" width="90" src="https://github.com/images/modules/download/tar.png" /></a> 
 	</div>
-	<h1><a href="http://github.com/stenehall/">Home</a> <span class="small">by <a href="http://github.com/stenehall">stenehall</a></span></h1>
-	<h2>My place at github</h2>
+	<h1><a href="http://github.com/stenehall/">Magiclogin</a> <span class="small">by <a href="http://github.com/stenehall">stenehall</a></span></h1>
+	<h2>Creates the illusion of one input being used for both username and password</h2>
 </header>
 
 <article>
-	<p>Foobar</p>
+	<p class="meta">21 November 2010</p>
+<h2 class="code_example"><a href="#code_example">Code example</a></h2>
+<pre>jQuery(document).ready(function() {
+	jQuery('#magiclogin-container').magiclogin();
+});</pre>
+<h2 class="example"><a href="#example">Example</a></h2>
+<section>
+<div id="magiclogin-container">
+<input id="username" type="text" value="Username">
+<input id="password" type="password" value="Password">
+<input class="submit" type="submit" value="Sign In">
+</div>
+</section>
+<link rel="stylesheet" href="https://github.com/stenehall/jQuery.magiclogin/raw/master/media/css/style.css" />
+<script src="https://github.com/stenehall/jQuery.magiclogin/raw/master/media/js/jquery.magicinput.js"></script><script type="text/javascript">
+	jQuery(document).ready(function() 
+	{
+		jQuery('#magiclogin-container').magicLogin({
+			passwordSize: 15,
+			usernameSize: 15
+		});
+
+	});
+</script>
 
 	<h2 id="download"><a href="#download">Download</a></h2> 
 	<p>You can download this project in either <a href="http://github.com/stenehall//zipball/master">zip</a> or <a href="http://github.com/stenehall//tarball/master">tar</a> formats.</p>
 	<p>You can also clone the project with <a href="http://git-scm.com">Git</a> by running:</p>
-	<pre>$ git clone git://github.com/stenehall/</pre>
+	<pre>$ git clone git://github.com/stenehall/jQuery.magiclogin</pre>
 
 	<h2>Discussion</h2>
 	<div id="disqus_thread"></div>
@@ -40,7 +62,7 @@
 	<noscript><a href="http://broken8.disqus.com/?url=ref">View the discussion thread.</a></noscript>
 </article>
 <footer>
-	<p>Get the source code on GitHub : <a href="http://github.com/stenehall/">stenehall/</a></p>
+	<p>Get the source code on GitHub : <a href="http://github.com/stenehall/jQuery.magiclogin">stenehall/jQuery.magiclogin</a></p>
 </footer>
 	</body>
 	<script type="text/javascript">

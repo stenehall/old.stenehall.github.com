@@ -9,11 +9,43 @@ layout: base
 
 <article>
 	{{ content }}
-	<h2>Github Projects</h2>
-	<ul>
-		<li><a href="http://stenehall.github.com/jQuery.magiclogin/">Magic login</a></li>
-		<li><a href="http://stenehall.github.com/jQuery.showpasswords/">Show Passwords</a></li>
-	</ul>
+
+	{% if site.categories.jquery %}
+		<h2>Github jQuery Projects</h2>
+		<ul class="list">
+			{% for post in site.categories.jquery %}
+			<li>
+				<a href="{{ post.url }}" title="{{ post.title }}">
+					<span class="date">
+						<span class="day">{{ post.date | date: '%d' }}</span> 
+						<span class="month"><abbr>{{ post.date | date: '%b' }}</abbr></span>
+						<span class="year">{{ post.date | date: '%Y' }}</span>
+					</span>
+					<span class="title"> &raquo; {{ post.title }}</span>
+				</a>
+			</li>
+			{% endfor %}
+		</ul>
+	{% endif %}
+
+	{% if site.categories.habari %}
+		<h2>Github Habari</h2>
+		<ul class="list">
+			{% for post in site.categories.habari %}
+			<li>
+				<a href="{{ post.url }}" title="{{ post.title }}">
+					<span class="date">
+						<span class="day">{{ post.date | date: '%d' }}</span> 
+						<span class="month"><abbr>{{ post.date | date: '%b' }}</abbr></span>
+						<span class="year">{{ post.date | date: '%Y' }}</span>
+					</span>
+					<span class="title"> - {{ post.title }}</span>
+				</a>
+			</li>
+			{% endfor %}
+		</ul>
+	{% endif %}
+
 </article>
 
 <footer>
