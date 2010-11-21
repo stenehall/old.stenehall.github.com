@@ -9,7 +9,7 @@ body {
 	font: 14px/1.5 Helvetica, Arial, FreeSans, Sans-serif;
 	}
 
-body, header a {
+body, header a, h2 a, h3 a {
 	color: #000;
 	}
 
