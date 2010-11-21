@@ -73,6 +73,13 @@ dt {
 	font-style: italic;
 	}
 
+/* !Comments
+---------------------------------------*/
+#disqus_thread {
+	background: #fff;
+	padding: 10px;
+	}
+
 /* !Content
 ---------------------------------------*/
 body {
