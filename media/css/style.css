@@ -49,10 +49,10 @@ h3 {
 
 a {
 	color: #fb79af;
-	text-decoration: none
+	text-decoration: none;
 	}
 	
-	a:hover {
+	a:hover, a.hover {
 		background: #fb79af;
 		color: #fff;
 		}
