@@ -60,6 +60,10 @@ a {
 a img {
 	border: none;
 	}
+	
+	a:hover img {
+		background: none;
+		}
 
 .date {
 	color: #888;
