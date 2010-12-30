@@ -18,6 +18,8 @@ head: '
 
 p(meta). 30 December 2010
 
+JQuery plugin that lets you add hover effects to all links to the same href. Idea directly taken from <a href="http://csswizardry.com/2010/12/remote-controlled-hyperlinks-or-multiple-links-in-one-hyperlink/">http://csswizardry.com/</a>, credits to 
+
 h2(code_example). <a href="#code_example">Code example</a>
 
 <pre>jQuery.multilinks();</pre>
