@@ -51,6 +51,11 @@ a {
 	color: #fb79af;
 	text-decoration: none
 	}
+	
+	a:hover {
+		background: #fb79af;
+		color: #fff;
+		}
 
 a img {
 	border: none;
