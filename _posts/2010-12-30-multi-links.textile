@@ -9,7 +9,7 @@ title: Multilinks
 tagline: Hover a link an all links to the same href will be hovered on your site.
 description: JQuery plugin that lets you add hover effects to all links to the same href. Idea directly taken from http://csswizardry.com/2010/12/remote-controlled-hyperlinks-or-multiple-links-in-one-hyperlink/, credits to 
 head: '
-<script type="text/javascript" src="http://github.com/stenehall/jQuery.showpasswords/raw/master/jquery.showpasswords.js"></script>
+<script type="text/javascript" src="http://github.com/stenehall/jquery.multilinks/raw/master/jquery.multilinks.js"></script>
 <script type="text/javascript">
  	jQuery.multilinks();
 </script>
