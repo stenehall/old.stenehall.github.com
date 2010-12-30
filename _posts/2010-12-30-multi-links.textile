@@ -22,7 +22,9 @@ JQuery plugin that lets you add hover effects to all links to the same href. Ide
 
 h2(code_example). <a href="#code_example">Code example</a>
 
-{% highlight javascript %} jQuery.multilinks(); {% endhighlight %}
+{% highlight javascript %}
+jQuery.multilinks();
+{% endhighlight %}
 
 h2(arguments). <a href="#arguments">Arguments</a>
 
