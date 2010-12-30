@@ -53,8 +53,7 @@ a {
 	}
 	
 	a:hover, a.hover {
-		background: #fb79af;
-		color: #fff;
+		color: #000;
 		}
 
 a img {
