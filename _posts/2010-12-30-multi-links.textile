@@ -1,0 +1,33 @@
+---
+layout: project
+github: jquery.multilinks
+permalink: jquery.multilinks/
+categories: 
+ - jquery
+ - plugin
+title: Multilinks
+tagline: Hover a link an all links to the same href will be hovered on your site.
+description: JQuery plugin that lets you add hover effects to all links to the same href. Idea directly taken from <a href="http://csswizardry.com/2010/12/remote-controlled-hyperlinks-or-multiple-links-in-one-hyperlink/">http://csswizardry.com/</a>, credits to 
+head: '
+<script type="text/javascript" src="http://github.com/stenehall/jQuery.showpasswords/raw/master/jquery.showpasswords.js"></script>
+<script type="text/javascript">
+ 	jQuery.multilinks();
+</script>
+'
+---
+
+p(meta). 30 December 2010
+
+h2(code_example). <a href="#code_example">Code example</a>
+
+<pre>jQuery.multilinks();</pre>
+
+h2(arguments). <a href="#arguments">Arguments</a>
+
+multilinks is very much a work in progress, this is just a quick draft. Right now it doesn't take any arguments at all.
+
+h2(example). <a href="#example">Example</a>
+
+<section class="example">
+	<p><a href="/">First link</a>, second <a href="#">link</a> and a couple more <a href="/">links</a>, <a href="#">link</a></p>
+</section>
