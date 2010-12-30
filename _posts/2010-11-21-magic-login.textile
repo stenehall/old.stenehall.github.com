@@ -32,9 +32,11 @@ It will still allow the user to <code>TAB</code> between username and password b
 
 h2(code_example). <a href="#code_example">Code example</a>
 
-<pre>jQuery(document).ready(function() {
+{% highlight javascript %}
+jQuery(document).ready(function() {
 	jQuery('#magiclogin-container').magiclogin();
-});</pre>
+});
+{% endhighlight %}
 
 h2(example). <a href="#example">Example</a>
 
