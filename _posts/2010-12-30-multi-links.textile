@@ -7,7 +7,7 @@ categories:
  - plugin
 title: Multilinks
 tagline: Hover a link an all links to the same href will be hovered on your site.
-description: JQuery plugin that lets you add hover effects to all links to the same href. Idea directly taken from http://csswizardry.com/2010/12/remote-controlled-hyperlinks-or-multiple-links-in-one-hyperlink/, credits to 
+description: Multilinks is a jQuery plugin that lets you add hover effects to all links to the same href. Idea directly taken from http://csswizardry.com/2010/12/remote-controlled-hyperlinks-or-multiple-links-in-one-hyperlink/, all credits to him for the idea.
 head: '
 <script type="text/javascript" src="http://github.com/stenehall/jquery.multilinks/raw/master/jquery.multilinks.js"></script>
 <script type="text/javascript">
