@@ -145,6 +145,7 @@ dl {
 /* !Highlight
 ---------------------------------------*/
 .highlight  { background: #efefef; border: 1px solid #ccc; }
+.hightlight pre { margin: 0; }
 .highlight .c { color: #999988; font-style: italic } /* Comment */
 .highlight .err { color: #a61717; background-color: #e3d2d2 } /* Error */
 .highlight .k { font-weight: bold } /* Keyword */
