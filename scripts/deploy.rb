@@ -1,6 +1,5 @@
 #!/usr/bin/env ruby
 
-
 css = ""
 Dir.glob("../media/css/*.css") do |file|
    css+=IO.read(file)
