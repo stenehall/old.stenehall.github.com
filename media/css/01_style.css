@@ -20,7 +20,7 @@ header h2 {
 	}
 
 h1, h2, h3 {
-	font-family: 'Tinos', arial, serif;
+	font-family: Helvetica, 'Tinos', arial, serif;
 	}
 
 p {
@@ -48,7 +48,7 @@ h3 {
 	}
 
 a {
-	color: #fb79af;
+	color: #960078; /* #fb79af; */
 	text-decoration: none;
 	}
 	
