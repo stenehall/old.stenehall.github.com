@@ -32,6 +32,6 @@ multilinks is very much a work in progress, this is just a quick draft. Right no
 
 h2(example). <a href="#example">Example</a>
 
-<section class="example">
+<div class="example">
 	<p><a href="/">First link</a>, second <a href="#">link</a> and a couple more <a href="/">links</a>, <a href="#">link</a></p>
-</section>
+</div>

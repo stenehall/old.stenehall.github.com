@@ -104,10 +104,10 @@ jQuery(document).ready(function() {
 
 h2(example). <a href="#example">Example</a>
 
-<section class="magic-login">
+<div class="magic-login">
 	<div id="magiclogin-container">
 		<label><span>Usernam</span><input id="username" type="text" value="Username"></label>
 		<label><span>Password</span><input id="password" type="password" value="Password"></label>
 		<input class="submit" type="submit" value="Sign In">
 	</div>
-</section>
+</div>
