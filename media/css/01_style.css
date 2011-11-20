@@ -105,9 +105,19 @@ ul.list {
 	padding: 0 10px;
 	}
 
-header, article, footer {
+header > div, article, footer {
 	margin: 0 auto;
 	width: 700px;
+	}
+
+header {
+	border-bottom: 1px solid ;
+	background: #E9E9E9;
+	border-bottom: 1px solid #F6F6F6;
+	}
+
+article {
+	border-top: 1px solid #DEDEDE
 	}
 
 footer {

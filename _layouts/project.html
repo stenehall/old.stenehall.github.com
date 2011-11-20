@@ -2,17 +2,19 @@
 layout: base
 ---
 <header>
-	<div class="download">
-		<a href="https://github.com/stenehall/{{ page.github }}/zipball/master"> 
-			<img alt="Downlaod zip" width="90" src="https://github.com/images/modules/download/zip.png" /></a> 
-		<a href="https://github.com/stenehall/{{ page.github }}/tarball/master"> 
-			<img alt="Download tar" width="90" src="https://github.com/images/modules/download/tar.png" /></a> 
+	<div>
+		<div class="download">
+			<a href="https://github.com/stenehall/{{ page.github }}/zipball/master"> 
+				<img alt="Downlaod zip" width="90" src="https://github.com/images/modules/download/zip.png" /></a> 
+			<a href="https://github.com/stenehall/{{ page.github }}/tarball/master"> 
+				<img alt="Download tar" width="90" src="https://github.com/images/modules/download/tar.png" /></a> 
+		</div>
+		<h1><a href="http://github.com/stenehall/{{ page.github }}">{{ page.title }}</a> <span class="small">by <a href="http://stenehall.github.com/">stenehall</a></span></h1>
+		<h2>{{ page.tagline }}</h2>
 	</div>
-	<h1><a href="http://github.com/stenehall/{{ page.github }}">{{ page.title }}</a> <span class="small">by <a href="http://stenehall.github.com/">stenehall</a></span></h1>
-	<h2>{{ page.tagline }}</h2>
 </header>
 
-<article>
+<article><div>
 	{{ content }}
 
 	<h2 id="download"><a href="#download">Download</a></h2> 
@@ -50,7 +52,7 @@ layout: base
 	</script>
 	<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 	<a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
-</article>
+</div></article>
 <footer>
 	<p>Get the source code on GitHub : <a href="http://github.com/stenehall/{{ page.github }}">stenehall/{{ page.github }}</a></p>
 </footer>

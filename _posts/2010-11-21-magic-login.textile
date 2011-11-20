@@ -9,8 +9,72 @@ title: Magiclogin
 tagline: Creates the illusion of one input being used for both username and password
 description: JQuery plugin that fakes a one input field login
 head: '
-<link rel="stylesheet" href="https://github.com/stenehall/jQuery.magiclogin/raw/master/media/css/style.css">
-<style>section.magic-login { margin: 0 auto; }</style>
+<style>
+body {
+	background: url('../images/pattern_036.gif');
+	/* Pattern from http://www.squidfingers.com/patterns/ */
+	}
+
+section.magic-login{
+	background: #fff;
+	display: block;
+	margin: 150px auto;
+	-moz-box-shadow: 0 0 10px #888;
+	-webkit-box-shadow: 0 0 10px #888;
+	box-shadow: 0 0 10px #888;
+	overflow: hidden;
+	width: 370px;
+	padding: 30px;
+	}
+
+div.magic-logic {
+	border: 1px solid #ccc;
+	display: inline-block;
+	padding: 0 0 0 10px;
+	margin: 0;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	}
+
+.magic-logic label {
+	display: inline;
+	}
+
+.magic-logic input {
+	font: 12px/1 Monospace;
+	outline: none;
+	border: none;
+	text-align: left;
+	border: none;
+	padding: 0;
+	margin: 5px 0;
+	color: #ccc;
+	}
+
+.magic-logic input:focus {
+	color: #000;
+	}
+
+.magic-logic #username {
+	padding-left: 0;
+	}
+
+div.magic-logic label span {
+	display: none;
+	}
+
+.magic-logic .submit {
+	background: #333;
+	font: 14px/1 Verdana;
+	padding: 10px;
+	margin: -1px;
+	border-radius: 0 5px 5px 0;
+	-moz-border-radius: 0 5px 5px 0;
+	-webkit-border-radius: 0 5px 5px 0;
+	}
+
+section.magic-login { margin: 0 auto; }</style>
 <script src="https://github.com/stenehall/jQuery.magiclogin/raw/master/media/js/jquery.magicinput.js"></script>
 <script>
 	jQuery(document).ready(function() 
