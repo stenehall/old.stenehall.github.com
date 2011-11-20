@@ -21,7 +21,6 @@ h1,h2,h3,h4,dl,ul,ol,p,.description{width:480px;}
 ul{margin:2em 0;}
 ul.list{list-style:none;margin:0;padding:0 10px;}
 header>div,article,footer{margin:0 auto;width:700px;}
-header{border-bottom:1px solid #F6F6F6;}
 article{border-top:1px solid #dedede;}
 footer{margin-top:3em;border-top:1px dotted #000;}
 .download{float:right;}
